@@ -6,7 +6,6 @@ import java.util.Objects;
 
 
 //Abstract base class for all calendar events.
-
 public abstract class Event implements Comparable<Event> {
 
     protected String name;
