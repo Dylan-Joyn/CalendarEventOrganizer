@@ -19,13 +19,13 @@ public class EventPlanner {
 
     public static void addDefaultEvents(EventListPanel panel) {
         // Add a sample deadline
-        panel.addEvent(new Deadline("Submit Report",
+        panel.addEvent(new Deadline("Development Report",
                 LocalDateTime.now().plusDays(7)));
 
         // Add a sample meeting
-        panel.addEvent(new Meeting("Team Meeting",
+        panel.addEvent(new Meeting("Production Meeting",
                 LocalDateTime.now().plusDays(2),
                 LocalDateTime.now().plusDays(2).plusHours(1),
-                "Conference Room A"));
+                "Conference Room"));
     }
 }

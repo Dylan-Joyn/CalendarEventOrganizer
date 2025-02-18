@@ -7,10 +7,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Panel that displays a list of events and provides controls for
- * managing and filtering them.
- */
+
+ //displays a list of events and provides controls for
+ //managing and filtering them.
 public class EventListPanel extends JPanel {
     private final ArrayList<Event> events;
     private final JPanel controlPanel;
@@ -80,11 +79,9 @@ public class EventListPanel extends JPanel {
         dialog.setVisible(true);
     }
 
-    /**
-     * Adds a new event to the calendar and refreshes the display.
-     *
-     * @param event the event to add
-     */
+
+     // Adds a new event to the calendar and refreshes the display.
+
     public void addEvent(Event event) {
         events.add(event);
         refreshDisplay();
